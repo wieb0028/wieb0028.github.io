@@ -1,0 +1,30 @@
+body {
+    font-family: Calibri;
+    font-size: 18px;
+}
+header, footer {
+    background-color: wheat;
+}
+.site-title {
+    color:tomato;
+}
+#my-image {
+    box-shadow: 0px 0px 2px black ;
+    width: 50%;
+    height: 50%;
+}
+.hobbies>li:nth-child(odd) {
+    background-color: wheat ;
+    list-style-type: square;
+}
+a:link {
+    text-decoration: none;
+    background-color: wheat;
+    border-style: dotted;
+}
+a:hover {
+    background-color: wheat;
+}
+a:focus {
+    background-color: wheat;
+}
