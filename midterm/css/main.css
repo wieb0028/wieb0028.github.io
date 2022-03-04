@@ -1,0 +1,26 @@
+.title {
+    background-image: url("/midterm/images/lone-starfish-wide.jpg"); /* Links the wide starfish image behind the title text */
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: Arial, Helvetica, sans-serif; /* Changes the font of the title */
+    color: white; /* changes the color of the text */
+    text-align: center;
+}
+body {
+    background-color: rgb(185, 230, 222);
+}
+.factstitle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.starfish {
+}
+.facts {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup {
+    font-family: Arial, Helvetica, sans-serif;
+}
