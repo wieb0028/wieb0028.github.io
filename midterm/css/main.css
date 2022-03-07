@@ -7,11 +7,11 @@ body {
     align-items: center;
 }
 .main{
-    background-color: #d4e9e7; /* adds color to the background of the information */
+    background-color: #d4e9e7; /* adds color to the background of the information, and makes this section a differnet width then the body of the website */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
+    align-items: center; /* centres the lighter blue background */
+    width: 80%; /* changes width of the lgihter blue background */
 }
 .title {
     width: 100%;
@@ -22,13 +22,13 @@ body {
     background-position-y: 57%;
     background-position-x: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
+    color: white; /* changes the text color */
+    text-align: center; /* centers the text */
 }
 .notTitle{
     margin: 1em;
 }
-.buttons {
+.buttons { /* changes the text, and centres all the links*/
     display: flex;
     width: 100%;
     justify-content: center;
@@ -37,57 +37,57 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .buttons > a{ /* selects all a elements which are a child of .body2*/
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 5em; /* changes distance between links*/
+    padding-right: 5em; /* changes distance between links*/
 }
-a:link, a:visited {
+a:link, a:visited { /* edits color and removes the underline of the website link for when it is pressed and before it is pressed */
     color: black;
     text-decoration: none;
 }
-.factstitle {
+.factstitle { /* changes the text color and font of the factstitle class */
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 .starfish {
     height: fit-content;
 }
-#lone-starfish{
+#lone-starfish{ /* changes the size of the smaller starfish image*/
     height: 200px;
     width: 200px;
     float: left;
     margin: 1em;
 }
 
-.facts {
+.facts { /* changes the text color and font in the facts section. also ads word wrap around the starfish picture*/
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     float: none;
+    word-wrap: normal;
 }
-.list {
+.list { /* changes the text color and font for the items listed*/
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     padding-top: 5em;
 }
-.signup {
+.signup { /* changes the text color and font on the signup sheet title*/
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.form {
+.form { /* creates the border around the form, and padding around it as well. Also changes the font of the text inside */
     border:black; border-width:1.5px; border-style:solid;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.email
-{
+.email{ /* adds padding to the email input section of the from */
     padding-top: 10px;
 }
-.formbutton {
-    padding-top: 10px;
+.formbutton { /* adds padding to the send button in my form */
+    padding-top: 11px;
 }
-.copyright {
+.copyright { /* changes the size, font and color of my copywrite */
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
 }
