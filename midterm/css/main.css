@@ -1,26 +1,82 @@
+
+body {
+    background-color: #aad4cf;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.main{
+    background-color: #d4e9e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
 .title {
-    background-image: url("/midterm/images/lone-starfish-wide.jpg"); /* Links the wide starfish image behind the title text */
-    background-size: 700px;
+    width: 100%;
+    height: 14em;
+    background-image: url("/images/lone-starfish-wide.jpg"); /* Links the wide starfish image behind the title text */
     background-repeat: no-repeat;
-    background-position: center top;
-    font-family: Arial, Helvetica, sans-serif; /* Changes the font of the title */
-    color: white; /* changes the color of the text */
+    background-size: cover;
+    background-position-y: 57%;
+    background-position-x: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     text-align: center;
 }
-body {
-    background-color: rgb(185, 230, 222);
+.notTitle{
+    margin: 1em;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.buttons > p{ /* selects all p elements which are a child of .body2*/
+    padding-left: 5em;
+    padding-right: 5em;
 }
 .factstitle {
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .starfish {
+    height: 15em;
 }
+.factsGroup{
+    
+}
+#lone-starfish{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
 .facts {
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    float: none;
 }
 .list {
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .signup {
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.form {
+    border:black; border-width:1.5px; border-style:solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formbutton {}
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }

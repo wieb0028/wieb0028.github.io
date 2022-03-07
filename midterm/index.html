@@ -8,32 +8,59 @@
     <link href="css/main.css" rel="stylesheet"> <!-- Links my HTML code to css -->
 </head>
 <body>
-    <div class="title"> <!-- Creates a class for my first header -->
-        <h1>Fun Starfish Facts</h1> <!-- Website title header -->
-    </div>
-    <div class="factstitle"> <!-- Creates a class for my facts title -->
-        <h2>The Facts</h2>
-    </div>
-    <div class="starfish">
-        <img id="lone-starfish" src="images/lone-starfish.jpg" alt="Starfish photo">
-    </div>
-    <div class="facts">
-        <p>One of the first facts most people think about when they hear starfish is the fact that they can regrow lost limbs.</p>
-    </div>
-    <div class="list"> <!-- Creates a class for my list -->
-        <h2>List of Some Starfish Species</h2>
-        <ul>
-            <li>Crown of Thorns Starfish</li>
-            <li>Blue Sea Star</li>
-            <li>Protoreaster Nodosus</li>
-            <li>Astropecten Articulatus</li>
-        </ul>
-    </div>
-    <div class="signup"> <!-- Creates a class for my sign up sheet -->
-        <h2>Sign up for weekly facts!</h2>
-    </div>
-    <footer>
-        <p>Fun Starfish Facts</p>
-    </footer>
+    <div class="main"> <!-- Creates a class for my first header -->
+        <div class = "title">
+            <h1>Fun Starfish Facts</h1> <!-- Website title header -->
+        </div>
+        <div class ="notTitle">
+            <div class="buttons">
+                <p>HOME</p>
+                <p>FACTS</p>
+                <p>SIGNUP</p>
+            </div>
+            <div class="starfish">
+                <h2 class="factstitle">The Facts</h2>
+                <div id = "factsGroup">
+                    <img id="lone-starfish" src="images/lone-starfish.jpg" alt="Starfish photo"> <!--Adds the starfish image to my website-->
+                    <div class="facts">
+                        <p>One of the first facts most people think about when they hear starfish is the fact that they can regrow lost limbs. A neat add on to this fact is that there have been cases where starfish have regrown their entire bodies just from a detached limb! Another cool fact is that there are over 2000 species (some listed below) of starfish discovered so far! They are also capable of living up to 35 years!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list"> <!-- Creates a class for my list -->
+                <h2>List of Some Starfish Species</h2>
+                <ul>
+                    <li>Crown of Thorns Starfish</li>
+                    <li>Blue Sea Star</li>
+                    <li>Protoreaster Nodosus</li>
+                    <li>Astropecten Articulatus</li>
+                </ul>
+            </div>
+            <div class="signup"> <!-- Creates a class for my sign up sheet -->
+                <h2>Sign up for weekly facts!</h2>
+            </div>
+            <div class="form">
+                <form>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Your Email:</label><br>
+                    <input type="text" id="email" name="email">
+                    <p>Would you like to also recive emails on future starfish projects?</p>
+                    <input type="radio" id="Yes" name="updates" value="Yes">
+                    <label for="Yes">Yes</label><br>
+                    <input type="radio" id="No" name="updates" value="No">
+                    <label for="No">No</label><br>
+                    <div class="formbutton">
+                    <button type="button" onclick="">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="copyright">
+                <footer>
+                    <p>©Fun Starfish Facts</p>
+                </footer>
+            </div><!--end of copyright-->
+        </div><!--end of not title-->
+    </div><!--end of main-->
 </body>
 </html>
