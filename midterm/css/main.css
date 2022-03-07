@@ -89,4 +89,5 @@ a:link, a:visited { /* edits color and removes the underline of the website link
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 12px;
+    float: right;
 }
