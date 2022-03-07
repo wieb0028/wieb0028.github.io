@@ -57,7 +57,6 @@ a:link, a:visited { /* edits color and removes the underline of the website link
     float: left;
     margin: 1em;
 }
-
 .facts { /* changes the text color and font in the facts section. also ads word wrap around the starfish picture*/
     font-family: Arial, Helvetica, sans-serif;
     color: black;
