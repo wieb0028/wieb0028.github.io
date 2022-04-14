@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+.title_background {
+    background-color: #222 ;
+}
+.logo {
+    background-color: #C78C06 ;
+}
+.links {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: #C78C06 ;
+} 
+.about_us_full {
+    background-color: #ffe6ac ;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.our-services {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+.digital-box, .marketing-box, .video-box, .web-box, .print-box {
+    background-color: #ffe6ac ;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+.vision-box {
+    background-image:  url("../images/vision.jpg"); 
+    color: white;
+}
+.john-full-section, .bob-full-section {
+    background-color: #ffe6ac ;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+.message-us-full, .contact-us {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+.location-full {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif  
+}
+.hours-full {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.copyright {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: #C78C06 ;
+    background-color: #222 ;
+}
