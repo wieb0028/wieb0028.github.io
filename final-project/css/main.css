@@ -92,3 +92,7 @@ body {
     color: #C78C06 ;
     background-color: #222 ;
 }
+@media only screen and (min-width: 760px) {
+    body {
+      
+    }
