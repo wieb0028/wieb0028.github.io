@@ -46,22 +46,97 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* end of css reset code*/
 body {
     background-color: white;
+    left: 0;
+    width: 100%;
+    margin: auto;
+}
+.link_home{
+    background-color: #C78C06;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1em;
+}
+#center{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .title_background {
-    background-color: #222 ;
+    background-color: #222;
+    padding: 10px;
 }
-.logo {
+.logoBack {
     background-color: #C78C06 ;
 }
+.a:link, a:visited{
+    text-decoration: none;
+} 
+
 .links {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
     color: #C78C06 ;
-} 
-.about_us_full {
-    background-color: #ffe6ac ;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+div.links > a{
+    display: block;
+    text-decoration: none;
+    color: #C78C06 ;
+    padding: 5px;
+    font-size: 1em;
+}
+.main{
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-content: center;
+}
+.banner{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow-y: hidden;
+    height: -webkit-fill-available;
+}
+.banner-text{
+    background-color: black;
+    opacity: 50%;
+    padding: 10px;
+    position: absolute;
+    margin-top: 20%;
+}
+.title-pic{
+    display: flex;
+    z-index: -1;
+    bottom: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.pic{
+    width: 360px;
+    margin: auto;
+    height: 290px;
+}
+.pic > img{
+    height:270px;
+    width: 360px;
+    object-fit:cover;
+}
+.about-us-full {
+    background-color: #ffe6ac;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: unset;
+  }
+.about-us-title {
+    text-size-adjust: 50px;
 }
 .our-services {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
@@ -94,5 +169,6 @@ body {
 }
 @media only screen and (min-width: 760px) {
     body {
-      
+      background-color: aqua;
     }
+}
