@@ -128,15 +128,17 @@ div.links > a{
 .pic > img{
     height:270px;
     width: 360px;
-    object-fit:cover;
+    object-fit:cover; 
 }
-.about-us-title, .about-us-text {
+.about-us-title, .about-us-text, .about-us-text2 {
     background-color: #ffe6ac;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     position: unset;
+    padding-bottom: 15px;
+    padding-left: 10px;
   }
 .about-us-title {
-    text-size-adjust: 50px;
+    font-size: 40px;
 }
 .our-services {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
@@ -147,6 +149,7 @@ div.links > a{
 .digital-box, .marketing-box, .video-box, .web-box, .print-box {
     background-color: #ffe6ac ;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 40px;
 }
 .digital, .marketing, .video, .web, .print, .john-full-name {
     font-size: 30px;
@@ -156,6 +159,12 @@ div.links > a{
 .vision-box {
     background-image:  url("../images/vision.jpg"); 
     color: white;
+}
+.our-team {
+    font-size: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 .john-full-section, .bob-full-section {
     background-color: #ffe6ac ;
@@ -173,13 +182,20 @@ div.links > a{
 .enter-name-text, .enter-email-text, .enter-message-text {
     padding-top: 8px
 }
+.enter-name-bar, .enter-email-bar , .enter-message-bar {
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.hours-full {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+}
 .location-full {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif, bold;
     font-size: 40px;
     padding-left: 10px;
-}
-.hours-full {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
 }
 .copyright {
     padding-top: 15px;
