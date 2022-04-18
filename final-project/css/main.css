@@ -130,7 +130,7 @@ div.links > a{
     width: 360px;
     object-fit:cover;
 }
-.about-us-full {
+.about-us-title, .about-us-text {
     background-color: #ffe6ac;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     position: unset;
@@ -139,11 +139,19 @@ div.links > a{
     text-size-adjust: 50px;
 }
 .our-services {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 .digital-box, .marketing-box, .video-box, .web-box, .print-box {
     background-color: #ffe6ac ;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.digital, .marketing, .video, .web, .print, .john-full-name {
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 .vision-box {
     background-image:  url("../images/vision.jpg"); 
@@ -151,18 +159,31 @@ div.links > a{
 }
 .john-full-section, .bob-full-section {
     background-color: #ffe6ac ;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .message-us-full, .contact-us {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+}
+.contact-us {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.enter-name-text, .enter-email-text, .enter-message-text {
+    padding-top: 8px
 }
 .location-full {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif  
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif, bold;
+    font-size: 40px;
+    padding-left: 10px;
 }
 .hours-full {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .copyright {
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
     color: #C78C06 ;
     background-color: #222 ;
