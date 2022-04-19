@@ -48,19 +48,27 @@ table {
 }
 /* end of css reset code*/
 body {
-    background-color: white;
+    background-color: white; /* changes the background color */
     left: 0;
     width: 100%;
     margin: auto;
 }
 .link_home{
-    background-color: #C78C06;
-    color: black;
-    text-decoration: none;
-    padding: 5px; 
+
     font-size: 1em;
 }
-#center{
+.link_home a {
+    color: black;
+    text-decoration: none;
+    background-color: #C78C06;
+    padding: 5px;
+    display: block;
+    width: 100%;
+}
+nav {
+    text-align: center;
+}
+#center {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -81,7 +89,6 @@ body {
 .a:link, a:visited{
     text-decoration: none;
 } 
-
 .links {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
     color: #C78C06 ;
@@ -135,7 +142,7 @@ input {
     margin: auto;
     height: 290px;
     object-fit: cover;
-    image-orientation: c ;
+
 }
 .pic > img{
     height:290px;
@@ -281,7 +288,7 @@ table {
     background-color: #222 ;
     padding-left: 10px;
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 760px) { /* this line changes the formatting of the websites for devices over 760px in size */
     .pic{
         width: 460px;
         margin: auto;
@@ -299,13 +306,14 @@ table {
         align-content: center;
         align-items: flex-end;
         justify-content: space-evenly;
-        
     }
+    nav {
+        flex-direction: row;
+    }     
     #center{
         flex-direction: row;
-        /* padding: 2%; */
+        padding: 2%;
         margin: 0% 0% 0% 5%;
-
     }
     .banner-text{
         background-color: #000000b0;
@@ -317,7 +325,7 @@ table {
         width: 100%;
     }
     .about_us_full {
-        display: grid;
+        display: grid;  /* this line transforms the about us section into a grid so that the image and text can be side by side*/
         grid-template-columns:auto auto auto auto ;
         padding: 10px;
         grid-template-rows: auto auto auto auto ;
@@ -325,7 +333,7 @@ table {
         position: unset;
     }
     .grid1 {
-        display: grid;
+        display: grid; /* this line makes all the websites services into a grid so that theyre not layed out on top of each other */
         grid-template-columns:auto auto auto  ;
         padding: 10px;
         grid-template-rows: auto auto auto  ;
