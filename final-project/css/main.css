@@ -50,35 +50,34 @@ table {
 body {
     background-color: white; /* changes the background color */
     left: 0;
-    width: 100%;
+    width: 100%; /* whenever the "width element is used it is changing the width of the object */
     margin: auto;
 }
 .link_home{
-
-    font-size: 1em;
+    font-size: 1em; /* any time the term "font size is brought up, it is directly refering to changing the size of whatever text is being used */
 }
-.link_home a {
+.link_home a { /* this section edits the home button/link*/
     color: black;
     text-decoration: none;
     background-color: #C78C06;
-    padding: 5px;
+    padding: 5px; /* every line labled "padding" adds space bellow the object and whatever is around it */
     display: block;
     width: 100%;
 }
-nav {
+nav { /* this centers the nav section*/
     text-align: center;
 }
 #center {
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* the display flex element adds a flex box to this section of my website */
+    flex-direction: column; /* changes the direction the text will go, in this case it will be virtacle */
+    align-items: center; /* any line like this aligns the object being edited, in this case it would be centered */
 }
-.title{
+.title{ /* this changes the size of the main text title*/
     font-weight: bold;
     font-size: 2em;
     padding: 2%;
-}
+} 
 .title_background {
     background-color: #222;
     padding: 10px;
@@ -86,10 +85,10 @@ nav {
 .logoBack {
     background-color: #C78C06 ;
 }
-.a:link, a:visited{
+.a:link, a:visited{ /* removes underline from links */
     text-decoration: none;
 } 
-.links {
+.links { /* changes the size and color of all links except the home */
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
     color: #C78C06 ;
 }
@@ -116,9 +115,8 @@ input {
     margin: auto;
     position: relative;
     overflow-y: hidden;
-    height: -webkit-fill-available;
 }
-.banner-text{
+.banner-text{ /* adds transparent background and welcoming text */
     background-color: #000000b0;
     padding: 10px;
     position: absolute;
@@ -137,7 +135,7 @@ input {
     height: 100%;
     flex-direction: column;
 }
-.pic{
+.pic{ /* both this line and line 145 change the sizes so that the images fit the website*/
     width: 760px;
     margin: auto;
     height: 290px;
@@ -153,7 +151,7 @@ input {
     margin-top: 10px;
     background-color: #ffe6ac;
 }
-.about-us-title, .about-us-text, .about-us-text2 {
+.about-us-title, .about-us-text, .about-us-text2 {  /* changes text size, adds color and padding  */
     background-color: #ffe6ac;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     position: unset;
@@ -165,7 +163,7 @@ input {
     padding-top: 10px;
     font-weight: 700;
 }
-.our-services {
+.our-services {   /* this line changes the size of the our services section and makes it bold */
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
     font-size: 40px;
     padding-top: 30px;
@@ -173,21 +171,21 @@ input {
     padding-left: 10px;
     font-weight: 700;
 }
-.digital-text, .marketing-text, .video-text, .web-text, .print-text, .john-text, .bob-text, .vision-text {
+.digital-text, .marketing-text, .video-text, .web-text, .print-text, .john-text, .bob-text, .vision-text { /* this section allows me to edit all of the small text areas at the same time  */
     padding-left: 10px;
     padding-bottom: 20px;
 }
 .john-title, .bob-title {
     padding-left: 10px;
 }
-.digital-box, .marketing-box, .video-box, .web-box, .print-box {
+.digital-box, .marketing-box, .video-box, .web-box, .print-box { /* this section is for editing all of the sections of services  */
     background-color: #ffe6ac ;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 40px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
-.block {
+.block { /* this is for editing all the blocks on the website that could be turned into buttons if there were other pages to link to */
     background-color: black ;
     color: white ;
     padding-top: 30px;
@@ -196,7 +194,7 @@ input {
     width: 150px;
     text-align: center;
 }
-.digital, .marketing, .video, .web, .print, .john-full-name, .bob-full-name {
+.digital, .marketing, .video, .web, .print, .john-full-name, .bob-full-name { /* edits thew size, padding and boldness of various larger text sections of the website */
     font-size: 30px;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -211,7 +209,7 @@ input {
     font-weight: 700;
 }
 .vision-box {
-    background-image:  url("../images/vision.jpg"); 
+    background-image:  url("../images/vision.jpg"); /* Adds a background to the vision section which is a photo rather than a solid color  */
     color: white;
     background-size: 760px;
     background-repeat: no-repeat;
@@ -225,15 +223,15 @@ input {
     padding-left: 10px;
     font-weight: 700;
 }
-.john-full-section, .bob-full-section {
+.john-full-section, .bob-full-section { /* adds a background and changes the fonts to the sections talking about the company members */
     background-color: #ffe6ac ;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.message-us-full, .contact-us {
+.message-us-full, .contact-us { 
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 10px;
 }
-.contact-us {
+.contact-us { /* changes the size of text boldness and adds padding to the contact us section */
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -248,7 +246,7 @@ input {
 .enter-name-text, .enter-email-text, .enter-message-text {
     padding-top: 8px
 }
-.enter-name-bar, .enter-email-bar , .enter-message-bar {
+.enter-name-bar, .enter-email-bar , .enter-message-bar { /* edits the padding around the text bar */
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -256,31 +254,31 @@ input {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 20px;
 }
-table, th, td {
+table, th, td { /* adds a border to my entire table */
     border: 1px solid;
 }
-th {
+th { /* adds a background color to the top the table*/
     background-color: #ffe6ac;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-td {
+td { /* changes the size and adds padding to the 2nd and 3rd parts of the graph */
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 10px;
   }
-table {
+table { /* changes the width and height of the table */
     width: 90%;
     height: 100px;
 }
-.location-full {
+.location-full { /* crops the embedded map and edits the text */
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif, bold;
     font-size: 40px;
     padding-left: 10px;
     padding-top: 20px;
     font-weight: 700;
 }
-.copyright {
+.copyright { /* changes color and size of the copyright at the bottom of the website */
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
@@ -339,19 +337,17 @@ table {
         grid-template-rows: auto auto auto  ;
         gap: 10px;
     }
-    .grid1 div:nth-child(1) {
+    .grid1 div:nth-child(1) { /* this line allows me to edit one specific part of the grid */
         grid-row: 1 / span 1;
     }
     
-    .digital-box, .marketing-box, .video-box, .web-box, .print-box {
+    .digital-box, .marketing-box, .video-box, .web-box, .print-box { /* adjust the sizes of the different services */
         padding: 20px;
         font-size: 30px; 
         position: unset;
       }
     
-    .vision-box {
-        background-image:  url("../images/vision.jpg"); 
-        color: white;
+    .vision-box { /* changes the size of the vision box*/
         background-size: 1800px;
         background-repeat: repeat-x;
         padding-bottom: 30px;
@@ -367,13 +363,13 @@ table {
     .vision-text{
         padding-left: 70px; 
     }
-    .block {
+    .block { 
        margin-left: 70px;
     }
-    .message-us-full {
+    .message-us-full { /* sizes down the message us section */
         max-width: 50%;
     }
-    table {
+    table { /* changes the size of the table so that its adjusted to the desktop */
         width: 100%;
         height: 120px;
     }
