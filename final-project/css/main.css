@@ -136,6 +136,7 @@ input {
     margin: auto;
     height: 290px;
     object-fit: cover;
+    image-orientation: c ;
 }
 .pic > img{
     height:290px;
@@ -144,6 +145,7 @@ input {
 }
 .about_us_full{
     margin-top: 10px;
+    background-color: #ffe6ac;
 }
 .about-us-title, .about-us-text, .about-us-text2 {
     background-color: #ffe6ac;
@@ -155,6 +157,7 @@ input {
 .about-us-title {
     font-size: 40px;
     padding-top: 10px;
+    font-weight: 700;
 }
 .our-services {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
@@ -162,6 +165,7 @@ input {
     padding-top: 30px;
     padding-bottom: 15px;
     padding-left: 10px;
+    font-weight: 700;
 }
 .digital-text, .marketing-text, .video-text, .web-text, .print-text, .john-text, .bob-text, .vision-text {
     padding-left: 10px;
@@ -175,6 +179,7 @@ input {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 40px;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 .block {
     background-color: black ;
@@ -190,12 +195,14 @@ input {
     padding-bottom: 15px;
     padding-left: 10px;
     padding-top: 10px;
+    font-weight: 700;
 }
 .our-vision {
     padding-top: 30px;
     font-size: 30px;
     padding-bottom: 15px;
     padding-left: 10px;
+    font-weight: 700;
 }
 .vision-box {
     background-image:  url("../images/vision.jpg"); 
@@ -210,6 +217,7 @@ input {
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 10px;
+    font-weight: 700;
 }
 .john-full-section, .bob-full-section {
     background-color: #ffe6ac ;
@@ -223,11 +231,13 @@ input {
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 15px;
+    font-weight: 700;
 }
 .hours-title, .message-us {
     font-size: 30px;
     padding-left: 10px;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 .enter-name-text, .enter-email-text, .enter-message-text {
     padding-top: 8px
@@ -262,6 +272,7 @@ table {
     font-size: 40px;
     padding-left: 10px;
     padding-top: 20px;
+    font-weight: 700;
 }
 .copyright {
     padding-top: 15px;
@@ -272,10 +283,17 @@ table {
     padding-left: 10px;
 }
 @media only screen and (min-width: 760px) {
-    body {
-      background-color: aqua;
+    .pic{
+        width: 460px;
+        margin: auto;
+        height: 290px;
+        object-fit: cover;
     }
-    
+    .pic > img{
+        height:290px;
+        width: 460px;
+        object-fit:cover;     
+    }
     .title_background{
         display: flex;
         flex-direction: row;
@@ -297,5 +315,53 @@ table {
         top: 50%;
         transform: translateY(-50%);
         width: 100%;
+    }
+    .about_us_full {
+        display: grid;
+        grid-template-columns:auto auto auto auto ;
+        padding: 10px;
+        grid-template-rows: auto auto auto auto ;
+        gap: 10px;
+    }
+    .grid1 {
+        display: grid;
+        grid-template-columns:auto auto auto  ;
+        padding: 10px;
+        grid-template-rows: auto auto  ;
+        gap: 10px;
+    }
+    .grid1 div:nth-child(1) {
+        grid-row: 1 / span 1;
+    }
+    }
+    .digital-box, .marketing-box, .video-box, .web-box, .print-box {
+        padding: 20px;
+        font-size: 30px;
+      }
+    
+    .vision-box {
+        background-image:  url("../images/vision.jpg"); 
+        color: white;
+        background-size: 1800px;
+        background-repeat: repeat-x;
+        padding-bottom: 30px;
+        background-position: center;
+    }
+    .our-vision {
+        padding-top: 30px;
+        font-size: 30px;
+        padding-bottom: 15px;
+        padding-left: 70px;
+        font-weight: 700;
+    }
+    .vision-text{
+        padding-left: 70px;
+    }
+    .block {
+       margin-left: 70px;
+    }
+    table {
+        width: 100%;
+        height: 120px;
     }
 }
